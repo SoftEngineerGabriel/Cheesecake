@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ }
+
+ :root{
+    font-family: 'Source Serif', serif;
+    font-size: 62.5%;
+ }
+
+ main{
+    max-width: 32rem;
+    margin-inline: auto;
+
+    padding: 5.6rem 4rem;
+    box-sizing: content-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+ }
+
+ img{
+    width: 100%;
+    margin-block: 4.5rem;
+ }
+
+ body{
+    color: #A54328;
+    font-size: 1.6rem;
+ }
+
+ h1, h2{
+    font-size: 2.8rem;
+ }
+
+ h2{
+    margin-bottom: 4.5rem;
+ }
+
+ p, li, strong{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+ }
+
+ button{
+    margin-top: 4.5rem;
+
+    font-family: 'Source Serif 4', serif;
+
+    color: white;
+    background-color: #A54328 ;
+    
+    border: 0;
+    padding: .8rem; 
+    border-radius: .6rem;
+ }
+
+ ul, ol{
+    padding-left: 2.4rem;
+ }
+
+ ul{
+    margin-bottom: 4.5rem;
+ }
+
+ @media(min-width: 1120px){
+    main{
+        flex-direction: row;
+        max-width: fit-content;
+        gap: 16rem;
+
+        padding: 9rem 6rem;
+    }
+
+    .intro{
+        max-width: 43.5rem;
+    }
+
+    .ingredientes{
+        max-width: 52.5rem;
+    }
+
+    h1, h2{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    p,li, strong{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    button{
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+ }
